@@ -5,6 +5,10 @@ The hardware chosen for this project is an Arduino Nano (or a clone), an etherne
 
 Optionally you can add a GPS receiver and/or LCD display 16x2 characters.
 
+The system need to sync the clock for the WSPR transmission.
+
+If GPS is not installed (or not receive) the system will use the configured NTP Time Server.
+
 The distinctive feature of this system is that it can be reached via Ethernet in order to monitor the status and setup the system.
 
 IMPORTANT
@@ -68,10 +72,6 @@ Optional:
 Display 16*2 characters: around 3€
 
 Beitian BN-880 GPS receiver: around 15€
-
-The system need to sync the clock for the WSPR transmission.
-
-If GPS is not installed (or not receive) the system try to use a Time Server.
 
 --------------------------------------------------
 
