@@ -14,7 +14,8 @@ The distinctive feature of this system is that it can be reached via Ethernet in
 IMPORTANT
 
 Webpage need external references (JQuery, W3S Bootstrap, ...)
-For this reason the PC that connect the system must be connected to internet too.
+
+For this reason the PC that connect the system must be connected to the internet too.
 
 Since the web page is coded into the arduino, Flash consumption is close to 95% of capacity, it will be hardly possible to add more features.
 
@@ -25,6 +26,7 @@ Anyway... it works.
 Acknowlegements
 
 The on-chip generation of the WSPR message algorithm is based on the work of Andy Talbot, G4JNT.
+
 Some part of the WSPR code is derived from the Gene Marcus W3PM GM4YRE WSPR beacon project (Arduino UNO DDS-60/AD9850 WSPR/QRSS Controller)
 
 The Gene Marcus's original sourcecode is mostly transformed to extremely reduce the FLASH needs.
@@ -33,7 +35,7 @@ The Gene Marcus's original sourcecode is mostly transformed to extremely reduce 
 
 Compilation:
 
-Use Arduino IDE 1.6 or newer
+Use Arduino IDE 1.6 or newer (please check it, expecially on Ubuntu)
 
 Import these libraries before build
 
