@@ -7,7 +7,8 @@ Optionally you can add a GPS receiver and an LCD display 16x2 characters.
 The distinctive feature of this system is that it can be reached via Ethernet in order to monitor the status and setup the system.
 
 Most of the WSPR code is derived from the Gene Marcus W3PM GM4YRE WSPR beacon project (Arduino UNO DDS-60/AD9850 WSPR/QRSS Controller)
-The sourcecode is mostly transformed to free as mush as FLASH space.
+
+The sourcecode is mostly transformed to reduce at minimum the FLASH space.
 The Flash memory is currently close to 95% of capacity, it will be hardly possible to add more features.
 Anyway... it works.
 
