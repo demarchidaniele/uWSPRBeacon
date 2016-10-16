@@ -13,7 +13,7 @@ Since the web page is coded into the arduino, Flash consumption is close to 95% 
 Anyway... it works.
 
 List of materials
-Mandatory
+Mandatory:
 ATmega328P Nano V3 Controller Board: around 8€
 ENC28J60 Ethernet Shield Network Module V1.0: around 8€
 AD9851 DDS Signal Generator Module: around 15€
