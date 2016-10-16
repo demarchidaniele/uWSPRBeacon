@@ -25,7 +25,7 @@ BUGS:
 
 Missing Features:
  
- - A password protection for parameters
+ - A password protection for parameters.
  
 --------------------------------------------------
 
