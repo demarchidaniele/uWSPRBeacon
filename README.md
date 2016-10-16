@@ -75,7 +75,7 @@ If GPS is not installed (or not receive) the system try to use a Time Server.
 
 --------------------------------------------------
 
-  Nano Digital Pin Allocation
+  Arduino Nano Digital Pin Allocation
   
   D0
   
