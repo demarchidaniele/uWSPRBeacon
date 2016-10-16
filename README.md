@@ -8,6 +8,7 @@ Optionally you can add a GPS receiver and/or LCD display 16x2 characters.
 The distinctive feature of this system is that it can be reached via Ethernet in order to monitor the status and setup the system.
 
 IMPORTANT
+
 Webpage need external references (JQuery, W3S Bootstrap, ...)
 For this reason the PC that connect the system must be connected to internet too.
 
