@@ -1,5 +1,5 @@
 # uWSPRBeacon
-The purpose of this project is to create a minimal and very cheap system for creatining a beacon WSPR.
+The purpose of this project is to create a WSPR Beacon as small & inexpensive as possible, ...but with advanced features like an ethernet connection.
 
 The hardware chosen for this project is an Arduino Nano (or a clone), an ethernet expansion, and AD9851 DDS.
 Optionally you can add a GPS receiver and an LCD display 16x2 characters.
