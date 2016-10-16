@@ -63,7 +63,7 @@ ENC28J60 Ethernet Shield Network Module V1.0: around 8€
 
 AD9851 DDS Signal Generator Module: around 15€
 
-Optional
+Optional:
 
 Display 16*2 characters: around 3€
 
