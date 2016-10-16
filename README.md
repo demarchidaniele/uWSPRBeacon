@@ -17,6 +17,18 @@ Anyway... it works.
 
 --------------------------------------------------
 
+Atual problems and missing features:
+
+BUGS:
+ 
+ - System setup work on PC browser only, not in mobile devices browser.
+
+Missing Features:
+ 
+ - A password protection for parameters
+ 
+--------------------------------------------------
+
 Acknowlegements
 
 The on-chip generation of the WSPR message algorithm is based on the work of Andy Talbot, G4JNT.
