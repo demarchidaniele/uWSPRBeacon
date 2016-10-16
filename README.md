@@ -1,5 +1,5 @@
 # uWSPRBeacon
-The purpose of this project is to create a WSPR Beacon as small&inexpensive as possible, ...but with advanced features like an ethernet connection.
+The purpose of this project is to create an Hamradio WSPR Beacon as small&inexpensive as possible, ...but with advanced features like an ethernet connection.
 
 The hardware chosen for this project is an Arduino Nano (or a clone), an ethernet expansion, and AD9851 DDS.
 
