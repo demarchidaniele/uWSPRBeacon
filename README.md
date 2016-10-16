@@ -18,6 +18,29 @@ Anyway... it works.
 
 --------------------------------------------------
 
+Acknowlegements
+
+The on-chip generation of the WSPR message algorithm is based on the work of Andy Talbot, G4JNT.
+Some part of the WSPR code is derived from the Gene Marcus W3PM GM4YRE WSPR beacon project (Arduino UNO DDS-60/AD9850 WSPR/QRSS Controller)
+
+The Gene Marcus's original sourcecode is mostly transformed to extremely reduce the FLASH needs.
+
+--------------------------------------------------
+
+Compilation:
+
+Use Arduino IDE 1.6 or newer
+
+Import these libraries before build
+
+ MsTimer2 (http://playground.arduino.cc/Main/MsTimer2)
+
+ Ethercard (https://github.com/jcw/ethercard)
+
+ MicroNMEA (https://github.com/stevemarple/MicroNMEA)
+
+--------------------------------------------------
+
 Atual problems and missing features:
 
 BUGS:
@@ -28,15 +51,6 @@ Missing Features:
  
  - A password protection for parameters.
  
---------------------------------------------------
-
-Acknowlegements
-
-The on-chip generation of the WSPR message algorithm is based on the work of Andy Talbot, G4JNT.
-Some part of the WSPR code is derived from the Gene Marcus W3PM GM4YRE WSPR beacon project (Arduino UNO DDS-60/AD9850 WSPR/QRSS Controller)
-
-The Gene Marcus's original sourcecode is mostly transformed to extremely reduce the FLASH needs.
-
 --------------------------------------------------
 
 List of materials
@@ -73,7 +87,7 @@ If GPS is not installed (or not receive) the system try to use a Time Server.
   
   D4  
   
-  D5  Serial Rx - GPS-Tx (Needed by the serial lib but not used)
+  D5  Serial Tx -> GPS-Rx (Needed by the serial lib but not used)
   
   D6  DDS9851 Data
   
@@ -81,15 +95,15 @@ If GPS is not installed (or not receive) the system try to use a Time Server.
   
   D8  DDS9851 Clock
   
-  D9  
+  D9  Serial Rx <- GPS-Tx
   
   D10 
   
-  D11 Serial Rx - GPS-Tx
+  D11
   
-  D12 Serial Tx - GPS-Rx
+  D12 
   
-  D13 TX (LED)
+  D13 TX (LED) - PTT
   
   D14 LCD D7
   
