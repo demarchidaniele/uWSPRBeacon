@@ -47,18 +47,6 @@ Import these libraries before build
 
 --------------------------------------------------
 
-Atual problems and missing features:
-
-BUGS:
- 
- - System setup work on PC browser only, not in mobile devices browser.
-
-Missing Features:
- 
- - A password protection for parameters.
- 
---------------------------------------------------
-
 List of materials
 
 Mandatory:
